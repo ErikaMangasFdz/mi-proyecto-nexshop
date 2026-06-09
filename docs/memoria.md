@@ -42,3 +42,77 @@ Atributos:
 - id_producto
 - nombre
 - descripcion
+
+### Categoria
+
+La entidad Categoria permite organizar los productos en grandes grupos.
+
+Atributos:
+- id_categoria
+- nombre
+
+### Subcategoria
+
+La entidad Subcategoria permite clasificar los productos dentro de una categoria.
+
+Atributos:
+- id_subcategoria
+- nombre
+
+### Proveedor
+
+La entidad Proveedor almacena las empresas que suministran productos a NexShop.
+
+Atributos:
+- id_proveedor
+- nombre
+
+### Empleado
+
+La entidad Empleado almacena los trabajadores de la empresa.
+
+Atributos:
+- id_empleado
+- nombre
+- dni
+- email_corporativo
+- fecha_incorporacion
+
+### Ubicacion
+
+La entidad Ubicacion representa las tiendas fisicas y el almacen central.
+
+Atributos:
+- id_ubicacion
+- nombre
+- tipo
+
+### Pedido
+
+La entidad Pedido almacena las compras realizadas por clientes registrados.
+
+Atributos:
+- id_pedido
+- fecha
+- estado
+
+### TicketVenta
+
+La entidad TicketVenta almacena las ventas realizadas en tiendas fisicas.
+
+Atributos:
+- id_ticket
+- fecha
+
+### TicketIncidencia
+
+La entidad TicketIncidencia almacena las consultas y reclamaciones de clientes.
+
+Atributos:
+- id_ticket_incidencia
+- asunto
+- descripcion
+- fecha_apertura
+- fecha_cierre
+- estado
+- resolucion
